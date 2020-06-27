@@ -13,7 +13,7 @@ if __name__ == "__main__":
         n=list(map(int,input()))
         n=new_list.extend(n)
 
-    print("<----------------------------------------------->")
+    print("<-------------------------output------------------->")
     for item in new_list:
         item=item+1
         print(fibonacci(item))

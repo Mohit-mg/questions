@@ -24,9 +24,14 @@ def max_x(n,k):
 
 if __name__ == "__main__":
     test_case=int(input())
-    current_case=0
-    while(current_case<test_case):
-        n,k=list(map(int,input().split()))
-        current_case+=1
+    # current_case=0
+    case=[]
+    for _ in range(test_case):
+        new=list(map(int,input().split()))
+        # current_case+=1
+        case.append(new)
+    print("<--------------output---------------->")
+    for i in case:
+        n,k=i
         a=max_x(n,k)
         print(a)

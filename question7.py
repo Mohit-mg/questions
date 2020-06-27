@@ -26,4 +26,6 @@ if __name__ == "__main__":
         # print(p)
     new=set(new)
     new=sorted(new)
-    print(new)
+    print("<-----------------output------------------->")
+    for i in new:
+        print(i)

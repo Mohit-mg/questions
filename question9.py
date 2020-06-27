@@ -1,4 +1,3 @@
-  
 def countWays(n, m): 
     count =[] 
     for i in range(n + 2): 
@@ -17,17 +16,14 @@ def countWays(n, m):
       
     return count[n] 
 
- 
 if __name__ == "__main__":
     test_case=int(input())
     l=[]
     for _ in range(test_case):
         new=tuple(map(int,input().split()))
         l.append(new)
-    print(l)
-  
+    print("<----------------------output------------------------->")  
     for item in l:
         n,m=item
-        
         print(countWays(n,m))
     

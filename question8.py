@@ -24,6 +24,7 @@ if __name__ == "__main__":
         string=list(map(int,input().split()))
         if num_element == len(string):
             n=output(string)
+            print("<--------------------output------------------->")
             for _ in range(n):
                 print("Yes")
         else:

@@ -35,9 +35,11 @@ if __name__ == "__main__":
     start=1
     while start!=0:
         n=int(input())
-        num_list.append(n)
         if n == 0:
             start=0
+            break
+        num_list.append(n)
+    print("<-----------------output-------------------->")    
     for i in num_list:
         var=final(i)
         if var !=None:

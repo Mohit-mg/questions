@@ -17,5 +17,8 @@ if __name__ == "__main__":
         new.append(string)
     new.sort()
     new=sorting(new)
-    print(new)
+    print("<-----------------------------output--------------------------------->")
+    for i in new:
+        print(i)
+
     

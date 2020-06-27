@@ -11,5 +11,6 @@ if __name__ == "__main__":
         array.sort()
         output=len(array)/2
         output=int(output)
-     
+
+    print("<--------------output---------------------->") 
     print(array[output-1])
